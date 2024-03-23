@@ -1,0 +1,196 @@
+/* .loginsignup {
+  width: 100%;
+  height: 80vh;
+  background: #fce3fe;
+  padding-top: 100px;
+}
+.loginsignup-container {
+  width: 580px;
+  height: 600px;
+  background: white;
+  margin: auto;
+  padding: 40px 60px;
+}
+.loginsignup-container h1 {
+  margin: 20px 0px;
+}
+.loginsignup-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  margin-top: 30px;
+}
+.loginsignup-fields input {
+  height: 72px;
+  width: 100%;
+  padding-left: 20px;
+  border: 1px solid #c9c9c9;
+  outline: none;
+  color: #5c5c5c;
+  font-size: 18px;
+}
+.loginsignup-container button {
+  width: 580px;
+  height: 72px;
+  color: white;
+  background: #ff4141;
+  margin-top: 30px;
+  border: none;
+  font-size: 24px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.loginsignup-login {
+  margin-top: 20px;
+  color: #5c5c5c;
+  font-size: 18px;
+  font-weight: 500;
+}
+.loginsignup-container span {
+  color: #ff4141;
+  font-weight: 600;
+}
+.loginsignup-agree {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  gap: 20px;
+  color: #5c5c5c;
+  font-size: 18px;
+  font-weight: 500;
+}
+@media(max-width:1280px){
+  .loginsignup{
+      padding-top: 50px;
+  }
+  .loginsignup-container{
+      width: auto;
+      max-width: 500px;
+      max-height: 500px;
+  }
+  .loginsignup-container h1{
+      margin: 10px 0px;
+  }
+  .loginsignup-fields{
+      gap: 20px;
+      margin-top: 20px;
+  }
+  .loginsignup-fields input{
+      height: 65px;
+      width: 93%;
+  }
+  .loginsignup-container button{
+      width: 100%;
+  }
+  .loginsignup-login{
+      font-size: 16px;
+  }
+  .loginsignup-agree{
+      font-size: 14px;
+      gap: 10px;
+  }
+}
+@media(max-width:800px){
+  .loginsignup-container{
+      padding: 20px 30px;
+  }
+  .loginsignup-container h1{
+      font-size: 24px;
+  }
+  .loginsignup-fields{
+      margin-top: 20px;
+  }
+  .loginsignup-fields input{
+      height: 50px;
+  }
+  .loginsignup-container button{
+      height: 50px;
+      font-size: 16px;
+  }
+} */
+
+
+
+.loginsignup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Increased height */
+  background-image: url('./login_page.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+
+.loginsignup-container {
+  background-color: rgba(255, 255, 255, 0.8); /* Transparent white background */
+  border-radius: 10px; /* Slightly increased border-radius */
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.2); /* Slightly increased box-shadow */
+  padding: 30px; /* Slightly increased padding */
+  width: 350px; /* Slightly increased width */
+  text-align: center;
+}
+
+
+.loginsignup h1 {
+  font-size: 28px; /* Slightly increased font-size */
+  margin-bottom: 25px; /* Slightly increased margin-bottom */
+}
+
+.loginsignup-fields {
+  margin-bottom: 25px; /* Slightly increased margin-bottom */
+}
+
+.loginsignup-fields input {
+  width: 100%;
+  padding: 12px; /* Slightly increased padding */
+  margin-bottom: 12px; /* Slightly increased margin-bottom */
+  border: 1px solid #ccc;
+  border-radius: 6px; /* Slightly increased border-radius */
+  box-sizing: border-box;
+}
+
+.loginsignup-fields input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.loginsignup-login {
+  margin-top: 15px; /* Slightly increased margin-top */
+  font-size: 16px; /* Slightly increased font-size */
+}
+
+.loginsignup-login span {
+  color: #007bff;
+  cursor: pointer;
+}
+
+.loginsignup button {
+  width: 100%;
+  padding: 12px; /* Slightly increased padding */
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px; /* Slightly increased border-radius */
+  color: #fff;
+  font-size: 18px; /* Slightly increased font-size */
+  cursor: pointer;
+}
+
+.loginsignup button:hover {
+  background-color: #0056b3;
+}
+
+.loginsignup-agree {
+  margin-top: 25px; /* Slightly increased margin-top */
+  font-size: 16px; /* Slightly increased font-size */
+}
+
+.loginsignup-agree input {
+  margin-right: 12px; /* Slightly increased margin-right */
+}
+
+.loginsignup-agree p {
+  display: inline;
+}
+
+
